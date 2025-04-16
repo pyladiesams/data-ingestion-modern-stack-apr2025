@@ -1,9 +1,12 @@
-
-# { WORKSHOP NAME } 
+# Open source, open pipelines: Data ingestion with modern data stack 
 ### Presentation: [{ YOUR PRESENTATION NAME }](workshop/presentation_template.pdf)
 
 ## Workshop description
-Describe why your topic is important and what you want to share with your audience
+Data ingestion is the cornerstone of Data Engineering — it’s where every data journey begins. In this hands-on workshop, you’ll learn how to move data from anywhere to anywhere using the open-source modern data stack.
+
+We’ll focus on practical skills, leveraging Python library dlt (data load tool) to ingest data from a REST API and load it into DuckDB, a fast and lightweight database. Whether you're just getting started with data pipelines or looking to modernize your current stack, this session will give you a solid foundation for building reliable, open-source ingestion workflows.
+
+Come ready to write some code, get your hands dirty, and walk away with real-world ingestion superpowers.
 
 ## Requirements
 * PyLadies Amsterdam uses [uv](https://docs.astral.sh/uv/) for dependency management
@@ -36,10 +39,10 @@ To get started, open the `pyproject.toml` file and set the required Python versi
 After you have specified the Python version, you can create a virtual environment with `uv venv` and add packages with `uv add <package>`. Before the workshop, you can generate a requirements.txt file, which is needed e.g. for running code in GoogleColab, by running `uv export > requirements.txt`.
 
 ## Video record
-Re-watch [this YouTube stream](link)
+Re-watch [this YouTube stream](https://www.youtube.com/live/3XKjbKsHL4k)
 
 ## Credits
-This workshop was set up by @pyladiesams and {your GitHub handler}
+This workshop was set up by @pyladiesams and @VioletM
 
 
 ## Appendix
